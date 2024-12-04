@@ -18,3 +18,4 @@ Possible future improvements:
 - Logging via [slog](https://pkg.go.dev/log/slog)
 - More defensive coding and error checking
 - Also onlineing servers when they are healty again
+- Adding hostgroup filtering
