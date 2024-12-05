@@ -19,3 +19,7 @@ Possible future improvements:
 - More defensive coding and error checking
 - Also onlineing servers when they are healty again
 - Adding hostgroup filtering
+
+Other possible solutions:
+- [pingcap/tidb#58008](https://github.com/pingcap/tidb/pull/58008): Let TiDB no longer respond with OK on `COM_PING` during shudown.
+- Add a global variable for the server health/shutdown status. See [pingcap/tidb#58007](https://github.com/pingcap/tidb/issues/58007).
